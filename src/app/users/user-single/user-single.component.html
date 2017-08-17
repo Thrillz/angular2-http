@@ -1,0 +1,10 @@
+
+<div *ngIf="user">
+
+  <button [routerLink]="['/users', user.id, 'edit']" class="btn btn-primary btn-sm">Edit</button>
+  <button (click)="deleteUser()" class="btn btn-danger btn-sm">Delete</button>
+
+  <h2>{{user.name}}<small> {{user.username}}</small></h2>
+  <img [src]="user.avatar" class="img-rounded" />
+
+</div>

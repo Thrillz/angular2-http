@@ -1,0 +1,14 @@
+
+
+.jumbotron {
+  padding: 50px;
+  border-radius: 8px;
+}
+
+nav .container-fluid #myNavbar ul li a:hover {
+  background: #774;
+}
+
+nav .container-fluid #myNavbar ul li {
+  cursor: pointer;
+}

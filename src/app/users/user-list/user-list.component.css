@@ -1,0 +1,10 @@
+
+.user-list {
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 10px;
+}
+
+.user-card {
+  cursor: pointer;
+}
